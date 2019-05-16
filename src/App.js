@@ -1,24 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// import MeuComponente from './Component/Greet';
+import { Greet } from './Component/Greet';
+import Welcome from './Component/Welcome';
+import Hello from './Component/Hello';
+import Counter from './Component/Counter';
+import BtnClick from './Component/BtnClick'
+import BtnClickClass from './Component/BtnClickClass';
+import NameList from './Component/NameList';
+import Ninja from './Component/Ninja';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <MeuComponente /> */}
+      {/* <Greet name="Alexandre" heroName = "SPEED">
+        <h1 style ={ {color : 'blue'}}  > Propriedade filha</h1>
+      </Greet>
+      <Welcome name = "Bakigo"></Welcome>
+      <Hello></Hello>
+      <Counter></Counter>
+      <BtnClick></BtnClick>
+      <BtnClickClass />
+      <NameList /> */}
+
+      <Ninja></Ninja>
     </div>
   );
 }
